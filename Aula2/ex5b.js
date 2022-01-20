@@ -48,9 +48,10 @@ if (l3 > l1 & l3 > l2){
     }
 }
 
-if (a > (b+c)){
+if (a > (b+c))
+{
     console.log("Não forma um triangulo!");
-} else if ((a*a)==(b*b+c*c)){
+} else  ((a*a)==(b*b+c*c)){
     console.log("Triangulo retangulo!");
 } else if ((a*a) > (b*b+c*c)){
     console.log("Triangulo obtusangulo!");
